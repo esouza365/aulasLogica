@@ -1,0 +1,19 @@
+<script>
+    function pularLinha() {
+        document.write("<br>");
+        document.write("<br>")
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pularLinha();
+    }
+    var denominador = parseInt(prompt("Digite a tabuada que quer saber mestre "));
+
+
+
+    for (var multiplicador = 0; multiplicador <= 10; multiplicador++) {
+        mostra(denominador * multiplicador);
+    }
+    mostra("Fim")
+</script>
